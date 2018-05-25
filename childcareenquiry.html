@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+
+        <!-- <link rel="icon" href="assets/favicon.ico"> -->
+        <title>Territory Child Care Group Inc</title>
+
+        <!-- <link href="//fonts.googleapis.com/css?family=Open%20Sans:400,700,400italic,700italic" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Snell+Roundhand" rel="stylesheet">
+
+        <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/vendors/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/site.css" rel="stylesheet">
+    </head>
+
+    <body class="darwinfamilydaycare">
+        <header>
+
+            <div class="navbar-wrapper">
+                <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img class="site-logo" src="assets/images/logo.png"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class=""><a href="index.html">Home</a></li>
+                            <li class=""><a href="aboutus.html">About Us</a></li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="darwinfamilydaycare.html">Darwin Family Day Care</a></li>
+                                    <li><a href="murrayachildrenscentre.html">Murraya Children's Center</a></li>
+                                    <li><a href="the-woodhouse.html">Bees Creek Oshc and Vacation</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="contactus.html">Contact</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li>
+                                <form>
+                                    <input type="search" name="search" placeholder="Search..">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="carousel slide">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="carousel-img" src="assets/images/childcareenquiry.jpg">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Child Care Enquiry</h1>
+                                <!-- <p>Some text</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <section class="container childcareenquiry-container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4 col-sm-6">
+                        <label for="first-name">First Name *</label>
+                        <input type="text" name="first-name" id="first-name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4 col-sm-6">
+                        <label for="last-name">Last Name *</label>
+                        <input type="text" name="last-name" id="last-name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-12">
+                        <label for="telephone">Contact Number *</label>
+                        <input type="text" name="telephone" id="telephone" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-12">
+                        <label for="address1">Address 1*</label>
+                        <input type="text" name="address1" id="address1" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-12">
+                        <label for="address2">Address 2</label>
+                        <input type="text" name="address2" id="address2" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-5 col-sm-8">
+                        <label for="city">City </label>
+                        <input type="text" name="city" id="city" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-4">
+                        <label for="state-province">State/Province</label>
+                        <input type="text" name="state-province" id="state-province" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-5 col-sm-8">
+                        <label for="country">Country </label>
+                        <input type="text" name="country" id="country" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3 col-sm-4">
+                        <label for="zip-postal">Zip/Postal Code</label>
+                        <input type="text" name="state-province" id="zip-postal" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-12">
+                        <label for="email">Email Address *</label>
+                        <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-md-12 no-padding">
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c1-first-name">Child 1</label>
+                            <input type="text" name="c1-first-name" id="c1-first-name" class="form-control">
+                            <small>First Name</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c1-last-name" class="white">.</label>
+                            <input type="text" name="c1-last-name" id="c1-last-name" class="form-control" required>
+                            <small>Last Name</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-padding">
+
+                    <div class="col-md-2 form-group">
+                        <label>Date of Birth</label>
+                        <input type="text" class="form-control" name="c1-month">
+                        <small>MM</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c1-day">
+                        <small>DD</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c1-year">
+                        <small>YYYY</small>
+                    </div>
+                </div>
+                <div class="form-row col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Sex</label>
+                        <select class="form-control" name="c1-sex">
+                            <option value="">Select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-12 no-padding">
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c2-first-name">Child 2</label>
+                            <input type="text" name="c2-first-name" id="c2-first-name" class="form-control">
+                            <small>First Name</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c2-last-name" class="white">.</label>
+                            <input type="text" name="c2-last-name" id="c2-last-name" class="form-control" required>
+                            <small>Last Name</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-padding">
+
+                    <div class="col-md-2 form-group">
+                        <label>Date of Birth</label>
+                        <input type="text" class="form-control" name="c2-month">
+                        <small>MM</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c2-day">
+                        <small>DD</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c2-year">
+                        <small>YYYY</small>
+                    </div>
+                </div>
+                <div class="form-row col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Sex</label>
+                        <select class="form-control" name="c2-sex">
+                            <option value="">Select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-12 no-padding">
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c3-first-name">Child 3</label>
+                            <input type="text" name="c3-first-name" id="c3-first-name" class="form-control">
+                            <small>First Name</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="c3-last-name" class="white">.</label>
+                            <input type="text" name="c3-last-name" id="c3-last-name" class="form-control" required>
+                            <small>Last Name</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-padding">
+
+                    <div class="col-md-2 form-group">
+                        <label>Date of Birth</label>
+                        <input type="text" class="form-control" name="c3-month">
+                        <small>MM</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c3-day">
+                        <small>DD</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="c3-year">
+                        <small>YYYY</small>
+                    </div>
+                </div>
+                <div class="form-row col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Sex</label>
+                        <select class="form-control" name="c3-sex">
+                            <option value="">Select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Preferred Area of Care *</label>
+                        <select class="form-control" name="preferred-care-area">
+                            <option value="">Select one</option>
+                            <option value="Rural">Rural</option>
+                            <option value="Palmerston">Palmerston</option>
+                            <option value="Northern Suburbs">Northern Suburbs</option>
+                            <option value="Darwin City">Darwin City</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row col-md-12 no-padding">
+                    <div class="form-group label-list">
+                        <label>Days Required *</label>
+                        <label><input type="checkbox" name="Monday">Monday</label>
+                        <label><input type="checkbox" name="Tuesday">Tuesday</label>
+                        <label><input type="checkbox" name="Wednesday">Wednesday</label>
+                        <label><input type="checkbox" name="Thursday">Thursday</label>
+                        <label><input type="checkbox" name="Friday">Friday</label>
+                        <label><input type="checkbox" name="Saturday">Saturday</label>
+                        <label><input type="checkbox" name="Sunday">Sunday</label>
+                    </div>
+                </div>
+
+                <div class="form-row col-md-12 no-padding">
+                    <div class="form-group label-list">
+                        <label>Are these days flexible ?</label>
+                        <label><input type="checkbox" name="Yes">Yes</label>
+                        <label><input type="checkbox" name="No">No</label>
+                    </div>
+                </div>
+
+                <div class="form-row col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Drop off time *</label>
+                        <select name="select-yui_3_17_2_1_1465449050748_35705-field" class="form-control" required>
+
+                                <option value="Select One">Select One</option>
+
+                                <option value="Before 7:30 am">Before 7:30 am</option>
+
+                                <option value="7:30 am">7:30 am</option>
+
+                                <option value="8:00 am">8:00 am</option>
+
+                                <option value="8:30 am">8:30 am</option>
+
+                                <option value="9:00 am">9:00 am</option>
+
+                                <option value="9:30 am">9:30 am</option>
+
+                                <option value="10:00 am">10:00 am</option>
+
+                                <option value="10:30 am">10:30 am</option>
+
+                                <option value="11:00 am">11:00 am</option>
+
+                                <option value="11:30 am">11:30 am</option>
+
+                                <option value="12:00 noon">12:00 noon</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-12 no-padding">
+                    <div class="col-md-4 form-group">
+                        <label>Pick Up Time *</label>
+                        <select name="select-yui_3_17_2_1_1465449050748_36627-field" class="form-control" required>
+
+                                <option value="Select One">Select One</option>
+
+                                <option value="12:00 noon">12:00 noon</option>
+
+                                <option value="12:30 pm">12:30 pm</option>
+
+                                <option value="1:00 pm">1:00 pm</option>
+
+                                <option value="1:30 pm">1:30 pm</option>
+
+                                <option value="2:00 pm">2:00 pm</option>
+
+                                <option value="2:30 pm">2:30 pm</option>
+
+                                <option value="3:00 pm">3:00 pm</option>
+
+                                <option value="3:30 pm">3:30 pm</option>
+
+                                <option value="4:00 pm">4:00 pm</option>
+
+                                <option value="4:30 pm">4:30 pm</option>
+
+                                <option value="5:00 pm">5:00 pm</option>
+
+                                <option value="5:30 pm">5:30 pm</option>
+
+                                <option value="After 5:30 pm">After 5:30 pm</option>
+
+                            </select>
+                    </div>
+                </div>
+
+                <div class="no-padding col-md-12">
+
+                    <div class="col-md-2 form-group">
+                        <label>Expected Start Date *</label>
+                        <input type="text" class="form-control" name="e-month">
+                        <small>MM</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="e-day">
+                        <small>DD</small>
+                    </div>
+                    <div class="col-md-2 form-group">
+                        <label class="white">.</label>
+                        <input type="text" class="form-control" name="e-year">
+                        <small>YYYY</small>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-8">
+                        <label>Comment</label>
+                        <textarea class="form-control" name="comment"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-8 col-sm-12">
+                        <button class="btn btn-territory btn-lg">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+
+        <footer class="">
+            <div class="container">
+                <div class="col-md-12 no-padding">
+                    <div class="col-md-6 no-padding">
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fa fa-phone"></i> <span> <a href="tel:+61 8920 0600">+61 8920 0600</a></span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> <span><a href="mailto:info@tccg.org.au">info@tccg.org.au</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="footer-header">About Us</h3>
+                        <p>Territory Child Care Group offers a range of high quality education and care services including Darwin Family Day Care, Murraya Children’s Centre, Bees Creek Outside School Hours and Vacation Care.</p>
+                        <p>Territory Child Care Group Inc started out as a Family Day Care Scheme in 1977 and has evolved to include Murraya Children's Centre (2008)  and Bees Creek Outside School Hours and Vacation Care (2007). </p>
+
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="assets/vendors/jquery/jquery.js" type="text/javascript"></script>
+        <script src="assets/vendors/bootstrap/js/bootstrap.js"></script>
+
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
